@@ -1,0 +1,9 @@
+*.log
+*.o
+*.jar
+*.bak
+tags
+tmp
+wsdl
+skeleton
+ipconvif
