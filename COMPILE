@@ -1,6 +1,8 @@
 For New Compiles:
 =================
 
+su root
+
 # Reboot first! And wait for large processes to complete!
 # Add swap file
 free
