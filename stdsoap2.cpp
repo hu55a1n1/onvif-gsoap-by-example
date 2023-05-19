@@ -4403,7 +4403,7 @@ again:
               break;
             name = X509_NAME_ENTRY_get_data(X509_NAME_get_entry(subj, i));
             if (name)
-            { if (!soap_tag_cmp(host, (const char*)M_ASN1_STRING_data(name)))
+            { if (!soap_tag_cmp(host, (const char*)ASN1_STRING_data(name)))
                 ok = 1;
               else
               { unsigned char *tmp = NULL;
